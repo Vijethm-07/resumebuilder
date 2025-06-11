@@ -116,8 +116,8 @@
       <label for="phone">Phone</label>
       <input type="text" id="phone" placeholder="+1234567890">
 
-      <label for="About my self">About my self</label>
-      <textarea id="About my self" rows="3" placeholder="Brief introduction about yourself"></textarea>
+      <label for="aboutMyself">About Myself</label>
+      <textarea id="aboutMyself" rows="3" placeholder="Brief introduction about yourself"></textarea>
 
       <label for="education">Education</label>
       <textarea id="education" rows="3" placeholder="Your education background"></textarea>
@@ -143,7 +143,7 @@
       const name = document.getElementById("name").value.trim();
       const email = document.getElementById("email").value.trim();
       const phone = document.getElementById("phone").value.trim();
-      const about my self = document.getElementById("About my self").value.trim();
+      const aboutMyself = document.getElementById("aboutMyself").value.trim();
       const education = document.getElementById("education").value.trim();
       const experience = document.getElementById("experience").value.trim();
       const skills = document.getElementById("skills").value.trim().split(',');
@@ -157,8 +157,8 @@
         <div class="resume-section"><h3>${name}</h3></div>
         <div class="resume-section"><strong>Email:</strong> ${email} | <strong>Phone:</strong> ${phone}</div>
         <div class="resume-section">
-          <h3>About my self</h3>
-          <p>${About my self}</p>
+          <h3>About Myself</h3>
+          <p>${aboutMyself}</p>
         </div>
         <div class="resume-section">
           <h3>Education</h3>
